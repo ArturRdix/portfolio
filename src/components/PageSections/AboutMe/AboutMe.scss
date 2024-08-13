@@ -1,0 +1,38 @@
+.about-me-wrapper {
+    display: flex;
+    gap: 1rem;
+
+    .img-block {
+        img {
+            width: 30rem;
+            border-radius: 15px;
+        }
+    }
+
+    .about-me-information {
+        h3 {
+            text-transform: uppercase;
+            font-size: 1.7rem;
+            color: #147efb;
+        }
+        h4{
+            text-transform: uppercase;
+            font-size: 2rem;
+        }
+    }
+}
+
+ 
+@media(max-width:978px){
+    .about-me-wrapper{
+        flex-direction: column;
+        align-items: center; .img-block {
+            img {
+                width: 100%;
+            }
+        }
+        .about-me-information {
+            text-align: center;
+        }
+    }
+}

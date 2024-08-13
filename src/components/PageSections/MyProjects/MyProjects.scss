@@ -1,0 +1,13 @@
+.projects-wrapper {
+    display: flex;gap: 15px;
+    overflow-x: scroll;
+    margin-inline: auto;
+    padding-block: 30px;
+    // scroll-snap-type: x mandatory;
+
+    
+  background-image: url('./public/img/bg.png');background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
